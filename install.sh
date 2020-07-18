@@ -1,4 +1,6 @@
 sudo dpkg --configure -a
+read -p "Choose NO!, disable DASH, enable BASH\n weiter mit beliebiger Taste"
+sudo dpkg-reconfigure dash
 sudo apt-get install software-properties-common -y
 sudo apt-add-repository universe -y
 sudo apt-get update -y
@@ -33,5 +35,3 @@ sudo apt-get install xterm -y
 sudo apt install chrpath -y
 sudo apt install libncurses5-dev -y
 sudo apt-get install python3-distutils -y
-read -p "Choose NO!, disable DASH, enable BASH\n weiter mit beliebiger Taste"
-sudo dpkg-reconfigure dash
