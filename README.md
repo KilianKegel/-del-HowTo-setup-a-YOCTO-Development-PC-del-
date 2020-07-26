@@ -39,6 +39,7 @@
     * `sudo apt install chrpath`
     * `sudo apt install libncurses5-dev`
     * `sudo apt-get install python3-distutils`
+    * `sudo apt install gdb`
 
 
     * **`sudo dpkg-reconfigure dash`** <<-- choose **NO** to dash when prompted
