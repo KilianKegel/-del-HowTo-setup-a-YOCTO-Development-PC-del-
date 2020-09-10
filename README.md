@@ -7,8 +7,13 @@
    * `sudo vi /etc/default/grub`
    * add/replace `GRUB_CMDLINE_LINUX_DEFAULT="quiet splash video=hyperv_fb:1920x1080"`
    * `sudo update-grub`
+
+3. enable source code updates
+   * software-properties-gtk`
+    
+    ![software-properties-gtk.png](readme\software-properties-gtk.png)
       
-3. install YOCTO project in WSL / Ubuntu 20.04
+4. install YOCTO project in WSL / Ubuntu 20.04
     * `sudo apt-get install software-properties-common`
     * `sudo apt-add-repository universe`
     * `sudo apt-get update`
