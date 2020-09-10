@@ -11,7 +11,7 @@
 3. enable source code updates
    * software-properties-gtk`
     
-    ![software-properties-gtk.png](readme\software-properties-gtk.png)
+    ![software-properties-gtk.png](readme/software-properties-gtk.png)
       
 4. install YOCTO project in WSL / Ubuntu 20.04
     * `sudo apt-get install software-properties-common`
