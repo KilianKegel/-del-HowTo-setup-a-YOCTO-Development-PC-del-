@@ -3,8 +3,12 @@
    i.  get `Ubuntu-20.04-desktop-amd64.iso` from https://ubuntu.com/download/desktop/thank-you?version=20.04.1&architecture=amd64 <br>
    ii. create a bootable USB stick from the ISO image: https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview <br>
 
-
-2. install YOCTO project in WSL / Ubuntu 20.04
+2. change screen resolution
+   * `sudo vi /etc/default/grub`
+   * add/replace `GRUB_CMDLINE_LINUX_DEFAULT="quiet splash video=hyperv_fb:1920x1080"`
+   * `sudo update-grub`
+      
+3. install YOCTO project in WSL / Ubuntu 20.04
     * `sudo apt-get install software-properties-common`
     * `sudo apt-add-repository universe`
     * `sudo apt-get update`
