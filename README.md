@@ -9,7 +9,7 @@
    * `sudo update-grub`
 
 3. enable source code updates
-   * software-properties-gtk`
+   * `sudo software-properties-gtk`
     
     ![software-properties-gtk.png](readme/software-properties-gtk.png)
       
