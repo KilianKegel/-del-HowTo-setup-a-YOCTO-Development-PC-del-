@@ -41,3 +41,7 @@ sudo apt-get install python3-distutils -y
 sudo apt install bison
 sudo apt install flex
 sudo apt install m4
+sudo apt install autoconf
+sudo apt install automake
+sudo apt install libtool-bin
+
