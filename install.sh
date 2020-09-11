@@ -35,3 +35,9 @@ sudo apt-get install xterm -y
 sudo apt install chrpath -y
 sudo apt install libncurses5-dev -y
 sudo apt-get install python3-distutils -y
+#
+# get bison, flex, m4
+#
+sudo apt install bison
+sudo apt install flex
+sudo apt install m4
