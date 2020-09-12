@@ -16,6 +16,7 @@
       
 4. install YOCTO project in WSL / Ubuntu 20.04
    * download `install.sh`
+   * `chmod 777 install.sh`
    * run `./install.sh`
     
     https://www.yoctoproject.org/docs/3.1.1/brief-yoctoprojectqs/brief-yoctoprojectqs.html
