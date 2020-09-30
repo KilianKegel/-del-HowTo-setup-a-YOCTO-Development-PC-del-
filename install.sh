@@ -38,10 +38,17 @@ sudo apt-get install python3-distutils -y
 #
 # get bison, flex, m4
 #
-sudo apt install bison
-sudo apt install flex
-sudo apt install m4
-sudo apt install autoconf
-sudo apt install automake
-sudo apt install libtool-bin
-
+sudo apt install bison -y
+sudo apt install flex -y
+sudo apt install m4 -y
+sudo apt install autoconf -y
+sudo apt install automake -y
+sudo apt install libtool-bin -y
+#
+# get latest binutils containing the patch to support **Torito LINK**
+#
+git clone --recursive https://github.com/KilianKegel/binutils-for-Torito-C-Library.git
+cd binutils-for-Torito-C-Library/binutils-2.35
+chmod +x configure
+sudo  ./configure --enable-targets=x86_64-linux,x86_64-pep
+sudo make
