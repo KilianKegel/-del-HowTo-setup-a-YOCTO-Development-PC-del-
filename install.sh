@@ -49,6 +49,7 @@ sudo apt install libtool-bin -y
 #
 git clone --recursive https://github.com/KilianKegel/binutils-for-Torito-C-Library.git
 cd binutils-for-Torito-C-Library/binutils-2.35
-chmod +x configure
+sudo chmod 777 *
 sudo  ./configure --enable-targets=x86_64-linux,x86_64-pep
 sudo make
+sudo make install
