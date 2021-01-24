@@ -47,9 +47,12 @@ sudo apt install libtool-bin -y
 #
 # get latest binutils containing the patch to support **Torito LINK**
 #
-git clone --recursive https://github.com/KilianKegel/binutils-for-Torito-C-Library.git
-cd binutils-for-Torito-C-Library/binutils-2.35
-sudo chmod 777 *
+# git clone --recursive https://github.com/KilianKegel/binutils-for-Torito-C-Library.git
+# cd binutils-for-Torito-C-Library/binutils-2.35
+# sudo chmod 777 *
+wget https://sourceware.org/pub/binutils/releases/binutils-2.36.tar.xz
+tar -xf binutils-2.36.tar.xz
+cd binutils-2.36
 sudo  ./configure --enable-targets=x86_64-linux,x86_64-pep
 sudo make
 sudo make install
