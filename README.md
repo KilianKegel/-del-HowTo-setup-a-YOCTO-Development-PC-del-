@@ -1,4 +1,4 @@
-# <del>HowTo-setup-a-YOCTO-Development-PC</del>
+# HowTo-setup-a-YOCTO-Development-PC
 #### 1. install a Ubuntu 20.04 64 PC<br>
    1. if running in a VM, disable SECURE BOOT
    2. get `Ubuntu-20.04-desktop-amd64.iso` from https://ubuntu.com/download/desktop/thank-you?version=20.04.1&architecture=amd64 <br>
